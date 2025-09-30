@@ -1,3 +1,4 @@
+#define _GNU_SOURCE /* for RTLD_NEXT */
 #include <stdio.h>
 #include <X11/Xlib.h>
 #include <X11/extensions/Xrandr.h>
