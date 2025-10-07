@@ -1,6 +1,6 @@
 CC      ?= gcc
 CFLAGS  += -shared -fPIC
-LDFLAGS += -lXrandr -lX11
+LDFLAGS += -lXrandr -lX11 -ldl
 
 SONAME   = XRRGetOutputInfoSafe.so
 
